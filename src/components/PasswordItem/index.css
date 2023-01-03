@@ -1,0 +1,158 @@
+.each-password-container {
+  border: 1px solid #94a3b8;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  margin: 4px;
+  height: 100px;
+  width: 30%;
+}
+
+.initial-container {
+  height: 40px;
+  width: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.bg-color-1 {
+  background-color: #06d172;
+}
+
+.bg-color-2 {
+  background-color: #f59e0b;
+}
+.bg-color-3 {
+  background-color: #10b981;
+}
+.bg-color-4 {
+  background-color: #f97316;
+}
+.bg-color-5 {
+  background-color: #14b8a6;
+}
+.bg-color-6 {
+  background-color: #b91c1c;
+}
+.bg-color-7 {
+  background-color: #0ea5e9;
+}
+.bg-color-8 {
+  background-color: #64748b;
+}
+.bg-color-9 {
+  background-color: #000000;
+}
+.bg-color-10 {
+  background-color: #f30a8a;
+}
+
+.initial {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #f8fafc;
+  font-size: 18px;
+}
+
+.website-username-password-display-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 60%;
+}
+
+.website-display {
+  font-family: Roboto;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.username-display {
+  font-family: Roboto;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.password-display {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #f8fafc;
+  font-size: 15px;
+}
+
+.masked-password-image {
+  height: 15px;
+  width: 105px;
+
+  margin-top: 3px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 1120px) {
+  .each-password-container {
+    border: 1px solid #94a3b8;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px;
+    height: 100px;
+    width: 32%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .each-password-container {
+    border: 1px solid #94a3b8;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px;
+    height: 100px;
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .each-password-container {
+    border: 1px solid #94a3b8;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    margin: 4px;
+    height: 100px;
+    width: 100%;
+  }
+}
